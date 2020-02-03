@@ -64,7 +64,7 @@ export default function App() {
               style={{ textDecoration: "none" }}
               to="/"
             >
-              Jestack Project
+              Jetcake Project
             </Link>
           </h5>
           {user && (

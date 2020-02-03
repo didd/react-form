@@ -48,7 +48,7 @@ function SignUp() {
           let signUpResult = await signUp(formData);
           if (signUpResult.data) {
             setMessage(
-              "You have successfully created account on Jetstack Test Project!"
+              "You have successfully created account on Jetcake Test Project!"
             );
           } else {
             setError("general", "custom", signUpResult.message);
