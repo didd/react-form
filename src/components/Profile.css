@@ -1,0 +1,12 @@
+.profile-image {
+  margin: 0 auto;
+  display: block;
+  background: #f7f7f9;
+  height: 154px;
+  width: 154px;
+  margin-bottom: 20px;
+}
+
+#js-profile-uploader {
+  display: none;
+}

@@ -1,0 +1,29 @@
+.card {
+  margin: 15px 0;
+  background: #dee2e6 !important;
+  min-height: 150px;
+}
+
+.jumbotron {
+  position: relative;
+  background: transparent !important;
+  border-radius: 0 !important;
+  min-height: 400px;
+  color: #fff;
+}
+
+.jumbotron::after {
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
+  height: 100%;
+  width: 100%; 
+  background: url("https://radtech-static-assets.s3.amazonaws.com/explore/www.madebyvadim.com.jpg") center center;
+  background-size: cover;
+  color: #fff;
+  opacity: 0.9;
+}
